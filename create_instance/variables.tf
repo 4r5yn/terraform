@@ -7,8 +7,8 @@ variable "AWS_SECRET_KEY" {
 variable "AWS_REGION" {
    default = "us_east_1"
 }
-variable "amis" {
-    type = map()
+variable "AMIS" {
+    type = "map"
     default = {
         us-east-1 = "ami-13be557e"
     }
