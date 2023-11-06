@@ -22,5 +22,5 @@ variable "PRIVATE_KEY" {
   default = "Mykey"
 }
 variable "PUBLIC_KEY" {
-   default =   "pulickey"
+   default =   "mykey.pub"
 }
